@@ -21,6 +21,7 @@
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  width: 50%;
 }
 
 .App-headline {
@@ -42,4 +43,19 @@
   justify-content: end;
   align-items: center;
   gap: 1rem;
+}
+
+@media screen and (max-width: 1060px) {
+  .App-header {
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 1rem;
+  }
+  .App-headerContentWrapper {
+    padding: 0;
+    width: 100%;
+  }
+  .App-actionWrapper {
+    padding-top: 1rem;
+  }
 }

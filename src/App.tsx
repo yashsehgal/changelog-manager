@@ -9,8 +9,8 @@ export default function App() {
         <div className="App-headerContentWrapper">
           <h1 className="App-headline">Product Release Notes</h1>
           <p className="App-description">
-            Generated release notes using husky, conventional-commits <br />
-            and standard-version for automated changelog generation.
+            Generated release notes using husky, conventional-commits and
+            standard-version for automated changelog generation.
           </p>
         </div>
         <div className="App-actionWrapper">
