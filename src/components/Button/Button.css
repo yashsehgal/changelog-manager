@@ -1,0 +1,33 @@
+.Button {
+  display: flex;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+  gap: 4px;
+  align-items: center;
+}
+
+.Button:hover {
+  filter: brightness(1.1);
+}
+
+.Button:active {
+  transition: all 0.2s;
+  filter: brightness(0.9);
+}
+
+.Button-primary {
+  background: linear-gradient(to bottom, slateblue, #9382ff);
+  color: white;
+}
+
+.Button-secondary {
+  background-color: #2b3137;
+  color: white;
+}
