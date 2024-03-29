@@ -21,7 +21,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "eslintConfig": {
     "extends": [
@@ -46,7 +50,8 @@
     "@commitlint/config-conventional": "^19.1.0",
     "husky": "^8.0.0",
     "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "standard-version": "^9.5.0"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx,html,css,json}": [
