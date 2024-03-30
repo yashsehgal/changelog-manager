@@ -1,0 +1,12 @@
+.Link {
+  color: slateblue;
+}
+
+.Link:hover {
+  filter: brightness(1.1);
+  text-decoration: underline;
+}
+
+.Link:active {
+  filter: brightness(0.9);
+}

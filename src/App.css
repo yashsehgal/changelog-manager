@@ -45,6 +45,10 @@
   gap: 1rem;
 }
 
+.Changelog-wrapper {
+  width: fit-content;
+}
+
 @media screen and (max-width: 1060px) {
   .App-header {
     flex-direction: column;

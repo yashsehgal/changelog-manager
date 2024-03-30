@@ -1,6 +1,7 @@
 import "./App.css";
 import { Button } from "./components/Button";
 import { IconBrandGithub, IconExternalLink } from "@tabler/icons-react";
+import ChangelogTimeline from "./components/ChangelogTimeline/ChangelogTimeline";
 
 export default function App() {
   return (
@@ -25,6 +26,9 @@ export default function App() {
           </Button>
         </div>
       </header>
+      <main className="Changelog-wrapper">
+        <ChangelogTimeline />
+      </main>
     </div>
   );
 }

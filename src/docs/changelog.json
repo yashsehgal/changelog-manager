@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.0.0",
+    "headline": "Initial Release",
+    "releaseDate": { "date": "30", "month": "March", "year": "2024" },
+    "releaseNotes": [
+      {
+        "content": "[Feature] Configurations for automate changelog generation on release"
+      },
+      { "content": "[Feature] Add basic style and UI for changelog page" },
+      {
+        "content": "[Improvement] Add husky for supporting conventional commits",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Fix] Add basic CSS based styling for mobile layout"
+      }
+    ]
+  }
+]
