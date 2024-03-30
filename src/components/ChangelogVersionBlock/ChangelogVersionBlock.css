@@ -1,9 +1,81 @@
 .ChangelogVersionBlock-container {
   padding-bottom: 2rem;
+  position: relative;
+}
+
+.ChangelogVersionBlock-header {
+  position: absolute;
+  top: 0;
+  left: -34px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.ChangelogVersionBlock-releaseDate {
+  font-size: small;
+  color: slategrey;
+  margin-left: 1rem;
 }
 
 .VersionBadge-container {
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 4px;
+  width: 60px;
+  text-align: center;
+  color: white;
+  background-color: slateblue;
+  font-size: medium;
 }
 
 .ReleaseNoteBadge-container {
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 4px;
+  width: 90px;
+  text-align: center;
+  background-color: #3b82f6;
+  color: white;
+  font-size: small;
+}
+
+.ChangelogVersionBlock-releaseNote {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.ChangelogVersionBlock-content {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.ChangelogVersionBlock-releaseNoteContent {
+  color: white;
+  margin: 0.4rem;
+}
+
+@media screen and (max-width: 920px) {
+  .ChangelogVersionBlock-releaseNote {
+    flex-direction: column;
+    align-items: start;
+  }
+  .ChangelogVersionBlock-content {
+    gap: 1rem;
+  }
+  .ChangelogVersionBlock-releaseNoteContent {
+    margin: 0rem;
+  }
 }

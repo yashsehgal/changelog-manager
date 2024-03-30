@@ -1,9 +1,9 @@
 .Link {
-  color: slateblue;
+  color: rgb(117, 101, 223);
+  text-decoration: none;
 }
 
 .Link:hover {
-  filter: brightness(1.1);
   text-decoration: underline;
 }
 

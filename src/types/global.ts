@@ -10,9 +10,3 @@ export type ChangelogType = {
     };
   }[];
 };
-
-export enum ChangelogReleaseNoteElementType {
-  "[Feature]" = "Feature",
-  "[Fix]" = "Fix",
-  "[Improvement]" = "Improvement",
-}

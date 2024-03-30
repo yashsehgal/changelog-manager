@@ -1,19 +1,199 @@
 [
   {
-    "version": "1.0.0",
-    "headline": "Initial Release",
-    "releaseDate": { "date": "30", "month": "March", "year": "2024" },
+    "version": "2.0.0",
+    "headline": "Major Update: Enhanced Performance and New Features",
+    "releaseDate": { "date": "15", "month": "April", "year": "2024" },
     "releaseNotes": [
       {
-        "content": "[Feature] Configurations for automate changelog generation on release"
-      },
-      { "content": "[Feature] Add basic style and UI for changelog page" },
-      {
-        "content": "[Improvement] Add husky for supporting conventional commits",
+        "content": "[Feature] Implemented advanced caching mechanism for improved performance",
         "tag": { "id": "2342", "githubURL": "https://github.com/home" }
       },
       {
-        "content": "[Fix] Add basic CSS based styling for mobile layout"
+        "content": "[Feature] Added user profile customization options",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Improvement] Upgraded backend server infrastructure for scalability",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Fix] Resolved security vulnerability in authentication process",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      }
+    ]
+  },
+  {
+    "version": "1.9.0",
+    "headline": "Feature-Packed Update",
+    "releaseDate": { "date": "10", "month": "April", "year": "2024" },
+    "releaseNotes": [
+      {
+        "content": "[Feature] Added support for real-time notifications",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Improvement] Optimized database queries for faster performance",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Fix] Addressed UI rendering issues on older browsers",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      }
+    ]
+  },
+  {
+    "version": "1.8.0",
+    "headline": "Performance Enhancements and Bug Fixes",
+    "releaseDate": { "date": "5", "month": "April", "year": "2024" },
+    "releaseNotes": [
+      {
+        "content": "[Improvement] Implemented lazy loading for improved page load times",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Fix] Resolved memory leak causing performance degradation over time",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Improvement] Enhanced security measures for user authentication",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      }
+    ]
+  },
+  {
+    "version": "1.7.0",
+    "headline": "Feature-Rich Update",
+    "releaseDate": { "date": "1", "month": "April", "year": "2024" },
+    "releaseNotes": [
+      {
+        "content": "[Feature] Introduced support for multi-factor authentication",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Feature] Added dark mode theme option for improved user experience",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Improvement] Updated third-party dependencies to latest versions",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      }
+    ]
+  },
+  {
+    "version": "1.6.0",
+    "headline": "Enhanced User Experience",
+    "releaseDate": { "date": "28", "month": "March", "year": "2024" },
+    "releaseNotes": [
+      {
+        "content": "[Improvement] Revamped user interface for better usability",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Feature] Implemented in-app chat functionality",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Fix] Resolved compatibility issues with older Android devices",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      }
+    ]
+  },
+  {
+    "version": "1.5.0",
+    "headline": "Security and Stability Update",
+    "releaseDate": { "date": "25", "month": "March", "year": "2024" },
+    "releaseNotes": [
+      {
+        "content": "[Fix] Patched security vulnerability in file upload mechanism",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Improvement] Implemented automatic error reporting for faster bug fixes",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Feature] Added support for end-to-end encryption in messaging",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      }
+    ]
+  },
+  {
+    "version": "1.4.0",
+    "headline": "Usability and Performance Enhancements",
+    "releaseDate": { "date": "20", "month": "March", "year": "2024" },
+    "releaseNotes": [
+      {
+        "content": "[Feature] Introduced advanced search functionality",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Improvement] Optimized frontend assets for faster page loading",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Fix] Resolved issue causing occasional crashes in the mobile app",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      }
+    ]
+  },
+  {
+    "version": "1.3.0",
+    "headline": "Bug Fixes and Optimization",
+    "releaseDate": { "date": "15", "month": "March", "year": "2024" },
+    "releaseNotes": [
+      {
+        "content": "[Fix] Fixed issue causing data loss during form submission",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Improvement] Implemented server-side data validation for enhanced security",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Feature] Added support for dynamic content loading",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "headline": "Enhanced Functionality",
+    "releaseDate": { "date": "10", "month": "March", "year": "2024" },
+    "releaseNotes": [
+      {
+        "content": "[Feature] Integrated real-time collaboration tools",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Improvement] Streamlined user registration process",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Fix] Resolved compatibility issues with Internet Explorer",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      }
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "headline": "Initial Release",
+    "releaseDate": { "date": "1", "month": "March", "year": "2024" },
+    "releaseNotes": [
+      {
+        "content": "[Feature] Configurations for automated changelog generation on release",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Feature] Add basic style and UI for changelog page",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Improvement] Add Husky for supporting conventional commits",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
+      },
+      {
+        "content": "[Fix] Add basic CSS based styling for mobile layout",
+        "tag": { "id": "2342", "githubURL": "https://github.com/home" }
       }
     ]
   }

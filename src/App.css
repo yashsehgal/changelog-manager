@@ -10,9 +10,12 @@
   border-bottom-style: solid;
   border-bottom-color: #3c444b;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: start;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .App-headerContentWrapper {
@@ -21,7 +24,8 @@
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  width: 50%;
+  text-align: center;
+  width: 48%;
 }
 
 .App-headline {
@@ -47,19 +51,32 @@
 
 .Changelog-wrapper {
   width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 @media screen and (max-width: 1060px) {
+  .App-container {
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+  }
   .App-header {
-    flex-direction: column;
-    align-items: start;
-    padding-bottom: 1rem;
+    width: 100%;
   }
   .App-headerContentWrapper {
     padding: 0;
     width: 100%;
+    padding-left: 0;
+    padding-right: 0;
   }
   .App-actionWrapper {
     padding-top: 1rem;
+  }
+  .Changelog-wrapper {
+    width: 80%;
   }
 }

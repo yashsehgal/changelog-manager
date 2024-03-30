@@ -1,4 +1,5 @@
 import React, { forwardRef } from "react";
+import "./Link.css";
 
 export interface LinkProps
   extends React.AnchorHTMLAttributes<HTMLAnchorElement> {}

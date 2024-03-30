@@ -18,12 +18,6 @@ export default function App() {
           <Button icon={<IconBrandGithub width={16} height={16} />}>
             View source
           </Button>
-          <Button
-            variant="secondary"
-            icon={<IconExternalLink width={16} height={16} />}
-          >
-            {"CHANGELOG.md"}
-          </Button>
         </div>
       </header>
       <main className="Changelog-wrapper">
