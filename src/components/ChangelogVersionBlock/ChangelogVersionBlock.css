@@ -7,17 +7,31 @@
   position: absolute;
   top: 0;
   left: -34px;
-  width: 200px;
+  gap: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: start;
 }
 
+.ChangelogVersionBlock-headline-releaseDate-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.4rem;
+}
+
+.ChangelogVersionBlock-headline {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
 .ChangelogVersionBlock-releaseDate {
   font-size: small;
   color: slategrey;
   margin-left: 1rem;
+  margin: 0;
 }
 
 .VersionBadge-container {
@@ -54,12 +68,12 @@
 }
 
 .ChangelogVersionBlock-content {
-  padding-top: 3rem;
+  padding-top: 3.8rem;
   padding-bottom: 4rem;
   padding-left: 1rem;
   display: flex;
   flex-direction: column;
-  margin-left: 2rem;
+  margin-left: 2.15rem;
 }
 
 .ChangelogVersionBlock-releaseNoteContent {
@@ -74,6 +88,7 @@
   }
   .ChangelogVersionBlock-content {
     gap: 1rem;
+    padding-top: 6rem;
   }
   .ChangelogVersionBlock-releaseNoteContent {
     margin: 0rem;

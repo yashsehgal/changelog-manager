@@ -35,9 +35,12 @@ export default function ChangelogVersionBlock(changelog: ChangelogType) {
     <section className="ChangelogVersionBlock-container">
       <header className="ChangelogVersionBlock-header">
         <VersionBadge version={version} />
-        <p className="ChangelogVersionBlock-releaseDate">
-          {`${releaseDate.date} ${releaseDate.month}, ${releaseDate.year}`}
-        </p>
+        <div className="ChangelogVersionBlock-headline-releaseDate-wrapper">
+          <h2 className="ChangelogVersionBlock-headline">{headline}</h2>
+          <p className="ChangelogVersionBlock-releaseDate">
+            {`${releaseDate.date} ${releaseDate.month}, ${releaseDate.year}`}
+          </p>
+        </div>
       </header>
       <div className="ChangelogVersionBlock-content">
         {releaseNotes.map(({ content, tag }, index: number) => {
